@@ -1,18 +1,19 @@
-Lab 1
-Group # 1 7
-Author: Alexey Konovalov
-Date: 09/22/2026
+# Lab 1
+# Group # 1 7
+# Author: Alexey Konovalov
+# Date: 09/22/2026
 
 
 #not completed yet
 
-answer = str(input("Hello, do you want to play Rock-Paper-Scissors (Y/N)"))
-if answer = Y:
-  tool_user = str(input(Lets play! Write your tool!))
-  If 
-else:
-  print("See you next time!")
-
 import random
 
-tool_machine = random.randint(1, 3)
+
+def rock_paper_scissors():
+    """Play a Rock-Paper-Scissors game against the computer."""
+    while True:
+        play = input("Do you want to play? ").strip().lower()
+
+        if play not in ["yes", "y"]:
+            print("Thanks for playing!")
+            break
