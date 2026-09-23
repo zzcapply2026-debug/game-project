@@ -6,7 +6,7 @@
 import random
 def guessing_game():
   
-    """ This function runs a guessing game. """
+    """ This function runs a guessing game. Author: Zichen Zheng """
 
     while True:
       number = random.randint(1,100)
