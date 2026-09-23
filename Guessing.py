@@ -1,7 +1,7 @@
 # Lab 1
 # Group 17
 # Author: Zichen Zheng
-# September,22 2026
+# Date: September 22, 2026
 
 import random
 def guessing_game():
