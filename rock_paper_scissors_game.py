@@ -3,6 +3,8 @@
 # Author: Alexey Konovalov
 # Date: 09/22/2026
 
+import random
+
 
 def rock_paper_scissors():
     """Play a Rock-Paper-Scissors game against the computer."""
