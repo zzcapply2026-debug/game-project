@@ -15,7 +15,7 @@ def guessing_game():
       print("I'm thinking of a number between 1 and 100.")
 
       while tries > 0:
-        guess = int(input("guese what is："))
+        guess = int(input("guess what it is? You have " + str(tries) + " tries:"))
 
         if guess == number:
           print("you got it!")
